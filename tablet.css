@@ -1,0 +1,43 @@
+.wrap .util{
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+}
+.wrap li:nth-child(1){
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wrap li:nth-child(1) h2{
+    top: 45px;
+}
+
+.wrap .menu{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: darkslategray;
+    opacity: 90%;
+    flex-direction: column;
+    z-index: 5;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.4s;
+}
+.wrap .ov{
+    height: 160px;
+}
+.menu dt{width: 100%; text-align: left; padding-left: 12px;}
+.menu dd{width: 100%; text-align: left; padding-left: 12px;}
+
+.wrap .bar{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 5;
+    top: 48px;
+    right: 0;
+}
